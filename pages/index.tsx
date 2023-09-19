@@ -26,6 +26,7 @@ export default function Users() {
           name={ `${ u?.firstName ?? '' } ${ u?.lastName ?? '' }` }
           email={ u?.email ?? '' }
           image={ u?.image ?? '' }
+          profile={ u?.id ? `/user/${ u.id }` : '' }
         />
       ))
     }
