@@ -72,7 +72,7 @@ export default function Users() {
 					</div>
 					<div className="flex flex-col md:flex-row justify-end flex-1 md:gap-4 w-[85%]">
 						<div className="h-[80px] flex items-start justify-start py-2 flex-col md:shadow-sm px-2 w-full md:w-1/2 md:px-4">
-							<h3 className="font-semibold text-xs text-orange-300">Work</h3>
+							<h3 className="font-semibold text-xs text-blue-400">Work</h3>
 							<h3 className="font-light text-[12px] text-black">{ `${ userData?.company?.title ?? '' }` }</h3>
 							<h3 className="font-light text-[12px] text-black">{ `${ userData?.company?.name ?? '' }` }</h3>
 						</div>
