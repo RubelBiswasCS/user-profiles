@@ -9,7 +9,7 @@ export default function Card({ name, email, profile, image, links }: any) {
 
   return (
     <div className="px-4 py-6 flex flex-col bg-white max-w-[240px] max-h-[300px] justify-start items-center rounded-lg drop-shadow-lg gap-2">
-      <Image height={80} width={80} src={ image ?? '' } alt="user" className="rounded-full" />
+      <Image height={ 80 } width={ 80 } src={ image ?? '' } alt="user" className="rounded-full" />
       <div className="flex flex-col gap-0 justify-center">
         <h6 className="text-[12px] font-semibold text-center">{ name ?? '' }</h6>
         <h6 className="text-[10px] font-light text-center">{ email ?? '' }</h6>
@@ -32,7 +32,7 @@ export default function Card({ name, email, profile, image, links }: any) {
         </Link>
       </div>
       <Link href={ profile ?? '' } className="w-full">
-        <button className="text-[8px] hover:text-white p-1 rounded-sm bg-violet-500 hover:bg-violet-600 w-full">
+        <button className="text-[8px] text-white p-1 leading-3 rounded-sm bg-violet-500 hover:bg-violet-600 w-full">
           View Profile
         </button>
       </Link>

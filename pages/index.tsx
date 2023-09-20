@@ -17,7 +17,7 @@ export default function Users() {
   }, [dispatch, userStatus])
 
   return (
-   <div className='min-h-screen bg-purple-100 flex justify-center items-center py-4 flex-wrap gap-2'>
+   <div className='min-h-screen bg-purple-100 flex justify-center items-center py-4 flex-wrap gap-4'>
     { (userStatus === 'loading') ? <Loader /> : '' }
     {
       users?.map((u: any, idx: any) => (
