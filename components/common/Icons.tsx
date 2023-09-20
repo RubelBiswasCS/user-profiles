@@ -1,7 +1,7 @@
 export const Facebook = ({ className }: any) => (
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
-		className={`h-3 w-3 ${ className }`}
+		className={`h-3 w-3 text-black text-black ${ className }`}
 		fill="currentColor"
 		viewBox="0 0 24 24"
 	>
@@ -14,7 +14,7 @@ export const Facebook = ({ className }: any) => (
 export const Github = ({ className }: any) => (
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
-		className={`h-3 w-3 ${ className }`}
+		className={`h-3 w-3 text-black ${ className }`}
 		fill="currentColor"
 		viewBox="0 0 24 24"
 	>
@@ -27,7 +27,7 @@ export const Github = ({ className }: any) => (
 export const Linkedin = ({ className }: any) => (
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
-		className={`h-3 w-3 ${ className }`}
+		className={`h-3 w-3 text-black ${ className }`}
 		fill="currentColor"
 		viewBox="0 0 24 24"
 	>
@@ -40,7 +40,7 @@ export const Linkedin = ({ className }: any) => (
 export const Twitter = ({ className }: any) => (
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
-		className={`h-3 w-3 ${ className }`}
+		className={`h-3 w-3 text-black ${ className }`}
 		fill="currentColor"
 		viewBox="0 0 24 24"
 	>
@@ -52,7 +52,7 @@ export const Twitter = ({ className }: any) => (
 
 export const Location = ({ className }: any) => (
 	<svg 
-		className={`h-3 w-3 ${ className }`}
+		className={`h-3 w-3 text-black ${ className }`}
 		fill="#000000" 
 		version="1.1" 
 		id="Capa_1" 
@@ -68,7 +68,7 @@ export const Location = ({ className }: any) => (
 )
 
 export const ArrowBack = ({ className }: any) => (
-	<svg xmlns="http://www.w3.org/2000/svg" className={ `icon icon-tabler icon-tabler-arrow-back-up ${ className }` } width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <path d="M9 13l-4 -4l4 -4m-4 4h11a4 4 0 0 1 0 8h-1" /> </svg>
+	<svg xmlns="http://www.w3.org/2000/svg" className={ `text-black icon icon-tabler icon-tabler-arrow-back-up ${ className }` } width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <path d="M9 13l-4 -4l4 -4m-4 4h11a4 4 0 0 1 0 8h-1" /> </svg>
 )
 
 

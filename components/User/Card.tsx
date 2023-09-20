@@ -11,10 +11,10 @@ export default function Card({ name, email, profile, image, links }: any) {
     <div className="px-4 py-6 flex flex-col bg-white max-w-[240px] max-h-[300px] justify-start items-center rounded-lg drop-shadow-lg gap-2">
       <Image height={ 80 } width={ 80 } src={ image ?? '' } alt="user" className="rounded-full" />
       <div className="flex flex-col gap-0 justify-center">
-        <h6 className="text-[12px] font-semibold text-center">{ name ?? '' }</h6>
-        <h6 className="text-[10px] font-light text-center">{ email ?? '' }</h6>
+        <h6 className="text-[12px] font-semibold text-black text-center">{ name ?? '' }</h6>
+        <h6 className="text-[10px] font-light text-center text-black">{ email ?? '' }</h6>
       </div>
-      <p className="flex w-full text-[8px] font-light text-justify">
+      <p className="flex w-full text-[8px] font-light text-justify text-black">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla illum tempore modi facere, iusto ipsam, sint rerum voluptastio
       </p>
       <div className="flex gap-1">

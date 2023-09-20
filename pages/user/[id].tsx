@@ -49,7 +49,7 @@ export default function Users() {
 				<div className="flex justify-start items-center gap-4 w-full bg-white px-4 py-2 rounded-md shadow-sm">
 					<Link href={'/'} className="flex items-center gap-2">
 						<ArrowBack />
-						<span className="text-[12px] leading-2">Back</span>
+						<span className="text-[12px] leading-2 text-black">Back</span>
 					</Link>
 				</div>
 				<div className="flex justify-center items-center gap-4 w-full bg-white p-4 rounded-md shadow-md flex-col md:flex-row">
@@ -106,7 +106,7 @@ export default function Users() {
 						title={ 'About' }
 						containerClass="flex-1 w-full"
 					>
-						<p className="p-2 text-[12px] font-light">
+						<p className="p-2 text-[12px] font-light text-black">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga voluptates impedit tempore nesciunt quas ab sunt dignissimos cumque facilis! Quidem voluptas at, hic quas maiores porro perferendis facilis ipsam fugiat. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio ullam fugiat culpa numquam necessitatibus nostrum voluptatem? Quis facere dolor eius tenetur quod. Inventore optio pariatur iusto praesentium, corporis alias illum.
 						</p>
 					</SectionContainter>
