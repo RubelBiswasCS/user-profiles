@@ -67,7 +67,7 @@ export default function Users() {
 						</div>
 						<div className="flex bg-cyan-100 px-2 py-1 items-center gap-2">
 							<Location />
-							<h6 className="text-[12px] font-light">{ `${ userData?.address?.address ?? '' } ${ userData?.address?.city ?? '' }` }</h6>
+							<h6 className="text-[12px] font-light text-black">{ `${ userData?.address?.address ?? '' } ${ userData?.address?.city ?? '' }` }</h6>
 						</div>
 					</div>
 					<div className="flex flex-col md:flex-row justify-end flex-1 md:gap-4 w-[85%]">
