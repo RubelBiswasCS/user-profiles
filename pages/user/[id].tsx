@@ -1,19 +1,21 @@
 import React, { useEffect, useState } from "react"
 import axios from "axios"
 import { API } from "@/app.config"
-import { Loader } from "@/components/common/Loader"
-import Image from "next/image"
-import { Location } from "@/components/common/Icons"
-import { useRouter } from "next/router"
 
+// Import Components
+import Image from "next/image"
 import Link from "next/link"
+import { Loader } from "@/components/common/Loader"
+import { Location } from "@/components/common/Icons"
 import SectionContainter from "@/components/User/SectionContainter"
 import LabelValueCard from "@/components/common/LabelValueCard"
+
+import { useRouter } from "next/router"
 
 // Import Icons
 import { Facebook, Twitter, Linkedin, Github, ArrowBack } from "@/components/common/Icons"
 
-const details = [ 'firstName',  'lastName', 'age', 'gender', 'email', 'phone', 'birthDate', 'bloodGroup',  'ein', 'ssn'] 
+const details = ['firstName',  'lastName', 'age', 'gender', 'email', 'phone', 'birthDate', 'bloodGroup',  'ein', 'ssn'] 
 
 export default function Users() {
 	const router = useRouter()
